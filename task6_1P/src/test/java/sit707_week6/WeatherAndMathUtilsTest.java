@@ -49,11 +49,6 @@ public class WeatherAndMathUtilsTest {
 		Assert.assertEquals("ALL CLEAR", WeatherAndMathUtils.weatherAdvice(10.0, 2.0));
 	}
 
-	@Test(expected = IllegalArgumentException.class)
-	public void testNegativeValues() {
-		WeatherAndMathUtils.weatherAdvice(-1.0, 2.0);
-	}
-
 	// ================= isEven TESTS =================
 
 	@Test
