@@ -53,7 +53,7 @@ public class WeatherAndMathUtils {
 	 */
 	public static boolean isPrime(int n) {
 		if (n == 1) {
-			return true;
+			return false;
 		}
 		// Test if n is divisible by any other number down to 2.
 		for (int i = 2; i < n; i++) {
